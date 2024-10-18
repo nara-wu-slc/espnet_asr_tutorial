@@ -37,6 +37,7 @@ pip3 install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
 pip3 install wheel
 pip3 install jupyter ipykernel
+pip3 install matplotlib
 pip3 install librosa
 ```
 
@@ -86,6 +87,7 @@ source /slc/share/dot.zshrc.slc
 pip3 install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
 pip3 install wheel
 pip3 install jupyter ipykernel
+pip3 install matplotlib
 pip3 install librosa
 git clone https://github.com/espnet/espnet.git
 cd espnet
