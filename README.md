@@ -65,6 +65,11 @@ Available kernels:
   python3    /path/to/dir/espnet/espnet_asr_tutorial/.venv/share/jupyter/kernels/python3
 ```
 
+###### もしそうなっていなかったら以下を実行して Jupyter Notebook で使うPythonの情報を修正
+```
+python -m ipykernel install --name=python3 --prefix=/slc/work/lv24016/sandbox/espnet/espnet_asr_tutorial/.venv
+```
+
 ##### カレントディレクトリで Jupyter Notebook を立ち上げる
 ```
 jupyter notebook ./
